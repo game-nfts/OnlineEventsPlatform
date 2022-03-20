@@ -2,7 +2,7 @@
 
 # OnlineEventsPlatform
 
-Online Event Platform is a dApp deployed on the Aurora EVM chain where the platform organizer can host multiple online events with some options, one of which is an option that allows to watch the live stream of event only those users who have a special pass - "NFT Events Pass" . At the moment, this pass can be minted on dapp for free.
+Online Event Platform is a dApp deployed on the <ins>Aurora EVM</ins> chain where the platform organizer can host multiple online events with some options, one of which is an option that allows to watch the live stream of event only those users who have a special pass - "NFT Events Pass" . At the moment, this pass can be minted on dapp for free.
 
 
 ### Demonstration:
@@ -21,10 +21,26 @@ Online Event Platform is a dApp deployed on the Aurora EVM chain where the platf
 
 1. Clone this repository.
 2. Go to <ins>scripts</ins> folder and open <ins>config.js</ins> file.
-3. Set all constants like `OWNER`, `EVENTS_CONTRACT_ADDRESS`, `EVENTS_CONTRACT_ABI` and others...
+3. Set constants:
+    * `OWNER` - 
+    * `EVENTS_CONTRACT_ADDRESS` - 
+    * `EVENTS_CONTRACT_ABI` - 
+    * `EVENTS_NFT_CONTRACT_ADDRESS` - 
+    * `EVENTS_NFT_CONTRACT_ABI` - 
+    * `RPC` - 
+    * `CHAIN_NAME` - 
+    * `CHAIN_ID` - 
+
+### To build this dApp was used:
+
+1. [Aurora network](https://aurora.dev/) - an Ethereum Virtual Machine (EVM) built on the NEAR Protocol Blockchain. 
+2. [Livepeer](https://livepeer.org/) - decentralized video streaming network
+3. [Video.js](https://www.npmjs.com/package/video.js) - web video player that support HLS (HTTP Live Streaming)
+4. [Hardhat](https://hardhat.org/)
+5. HTML / CSS / JS
 
 
-### Screens:
+### DApp Screens:
 
 <img src="demo-img/demo1.png">
 <img src="demo-img/demo1.png">
