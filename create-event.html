@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online Events Platform - Create event</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/loader.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap" rel="stylesheet"> 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0-rc.0/web3.min.js"></script>
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+</head>
+<body>
+
+<div class="header container">
+  <h2>Online Events Platform</h2>
+  <nav class="nav">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./mint.html">Mint pass</a></li>
+  </nav>
+</div>
+
+<div class="row container">
+
+  <div class="leftcolumn">
+    <div class="card mobile center">
+      <div class="connect-wallet">
+        <button onclick="connectWallet()" class="btn">Connect wallet</button>
+      </div>
+      <div class="connect-error"></div>
+      <div class="create-event"></div>
+    </div>
+      
+    <div class="separator mobile"></div>
+
+    <div class="card">
+      <div class="center">
+        <h2>Create new event</h2>
+      </div>
+      <div id="create-event" >
+        <div class="error">Please connect wallet ...</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="separator mobile"></div>
+
+    <div class="card desktop">    
+      <div class="connect-wallet">
+        <button onclick="connectWallet()" class="btn">Connect wallet</button>
+      </div>
+      <div class="connect-error"></div>
+      <div class="create-event"></div>
+    </div>
+
+    <div class="card">
+      <h3>Upcoming events</h3>
+      <div id="upcoming-events">
+        <div class="center">
+          <div class="lds-ripple"><div></div><div></div></div>
+        </div>
+      </div>
+    </div>
+
+     <div class="card">
+      <img src="./images/online-events-image.png" width="100%" alt="">
+      <h3>About platform</h3>
+      <p style="text-align: justify;">Online Event Platform is a dApp deployed on the Aurora Testnet EVM chain where the platform organizer can host multiple online events with some options, one of which is an option that allows to watch the live stream of event only those users who have a special pass - "NFT Events Pass" . At the moment, this pass can be minted on dapp for free.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="footer container">
+  <h4>&copy; 2022 - Online Events Platform</h4>
+</div>
+
+<script>
+  const page = "create-event";
+</script>
+
+<script src="./scripts/config.js"></script>
+<script src="./scripts/bundleIpfs.js"></script>
+<script src="./scripts/functions.js"></script>
+
+</body>
+</html>
