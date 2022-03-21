@@ -7,8 +7,8 @@ Online Event Platform is a dApp deployed on the <ins>Aurora Testnet EVM</ins> ch
 
 ### Demonstration:
 
-1. Website live: TBD
-2. Video demo: TBD
+1. Website live: [https://online-events-platform.netlify.app](https://online-events-platform.netlify.app)
+2. Video demo: [https://vimeo.com/690378515](https://vimeo.com/690378515)
 
 
 ### DApp features:
@@ -45,5 +45,7 @@ Online Event Platform is a dApp deployed on the <ins>Aurora Testnet EVM</ins> ch
 
 ### DApp Screens:
 
-<img src="demo-img/demo1.png">
-<img src="demo-img/demo1.png">
+<tr>
+   <td><img src="demo-img/demo__1.png"></td>
+   <td><img src="demo-img/demo__2.png"></td>
+</tr>
