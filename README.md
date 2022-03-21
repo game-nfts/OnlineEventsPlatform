@@ -45,7 +45,9 @@ Online Event Platform is a dApp deployed on the <ins>Aurora Testnet EVM</ins> ch
 
 ### DApp Screens:
 
+<table>
 <tr>
-   <td><img src="demo-img/demo__1.png"></td>
-   <td><img src="demo-img/demo__2.png"></td>
+   <td ><img src="demo-img/demo__1.png"></td>
+   <td ><img src="demo-img/demo__2.png"></td>
 </tr>
+</table>
